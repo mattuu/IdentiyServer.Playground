@@ -24,7 +24,7 @@ namespace IdentityServer4.Playground.API
             services.AddAuthentication("Bearer")
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = "http://localhost:3729";
                     options.RequireHttpsMetadata = false;
 
                     options.ApiName = "api1";
